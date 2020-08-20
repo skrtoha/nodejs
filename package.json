@@ -1,0 +1,37 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "node_modules\\.bin\\webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skrtoha/nodejs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/skrtoha/nodejs/issues"
+  },
+  "homepage": "https://github.com/skrtoha/nodejs#readme",
+  "devDependencies": {
+    "css-loader": "^4.2.1",
+    "less": "^3.12.2",
+    "less-loader": "^6.2.0",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  },
+  "dependencies": {
+    "jquery": "^3.5.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-redux": "^7.2.1",
+    "react-router": "^5.2.0",
+    "react-router-redux": "^4.0.8",
+    "redux": "^4.0.5"
+  }
+}
